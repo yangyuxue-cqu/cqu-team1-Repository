@@ -1,0 +1,12 @@
+/*该函数先随机生成整数和小数两个部分，然后再合并成为一个浮点数，min为随机数绝对值最小值，max为随机数绝对值最大值*/
+
+double GetRanData(int min,int max)
+{
+	double m1=(double)(rand()%100001)/100001;// 计算 0，1之间的随机小数,得到的值域近似为(0,1)
+	min++;//将 区间变为(min+1,max),
+	double m2=(double)((rand()%(max-min+1))+min);//计算 min+1,max 之间的随机整数，得到的值域为[min+1,max]
+	m2=m2-1;//令值域为[min,max-1]
+	double s=pow(-1,rand());//随机生成正负号
+	return s*(m1+m2);//返回值域为(min,max),为所求随机浮点数
+
+}
