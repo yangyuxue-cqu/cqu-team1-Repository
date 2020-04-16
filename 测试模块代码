@@ -1,0 +1,10 @@
+/*误差测试模块，取系统三角函数作为真值，并将其和自编三角函数的计算结果保留4位小数有效值进行比较处理*/
+double WuchaPercent(double x,double y)//y值为真值，x为计算值
+{
+	double max,min,percent;
+	max = ( ( int )( (x>y ? x :y) * 10000 + 0.5 ) ) / 10000.0;//取x和y值中大值作为被减数，并保留4位小数有效值；
+	min = ( ( int )( (x<y ? x :y) * 10000 + 0.5 ) ) / 10000.0;
+	y = ( ( int )( y * 10000 + 0.5 ) ) / 10000.0;
+	percent=(max-min)/y;
+	return percent;//返回误差值
+}
