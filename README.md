@@ -48,7 +48,9 @@ test.py文件测试第六组同学在pyhon语言上的函数模块误差
 小于0.001的比例数。
  
 测试情况如下图所示：
+![test interface](https://github.com/yangyuxue-cqu/cqu-team1-Repository/blob/group3_test/images/calculate.png)
 
 ##升级后的界面如下图所示：
+![User interface]
 
  
