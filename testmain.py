@@ -1,4 +1,4 @@
-import tkinter as tk
+﻿import tkinter as tk
 from tkinter import messagebox
 from test import *
 
@@ -141,7 +141,7 @@ l_cot.place(x=150, y=240)
 l_cott= tk.Label(window, width=12, height=2,textvariable=test_cot, font=(12),bg="gray")
 l_cott.place(x=300, y=240)
 
-tk.Label(window, text='* PASS：误差小于0.001的比例值大于60%，反之FAIL').place(x=80, y=300)
+tk.Label(window, text=' * PASS：误差小于0.001的比例值大于60%，反之FAIL').place(x=80, y=300)
 
 
 window.mainloop()
