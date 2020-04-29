@@ -86,9 +86,9 @@ btn_tan = tk.Button(window, text='tan',
 btn_cot = tk.Button(window, text='cot',
                     width=12, height=2, command=cot_test).place(x=30, y=270)
 btn_clear = tk.Button(window, text='clear',
-                    width=12, height=1, command=clear_all).place(x=150, y=350)
-btn_quit = tk.Button(window, text='exit',
-                    width=12, height=1, command=window.quit).place(x=260, y=350)
+                    width=12, height=1, command=clear_all).place(x=200, y=350)
+# btn_quit = tk.Button(window, text='exit',
+#                     width=12, height=1, command=window.quit).place(x=260, y=350)
 
 
 var_sin_test = tk.StringVar()
