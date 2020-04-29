@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import messagebox
-
+from test import *
 
 #界面
 window = tk.Tk()
@@ -36,7 +36,7 @@ def sin_test():
     if flag:
         result = 99.5
     else:
-        result = 100.0
+        result = count_sin/10
     var_sin_test.set("%.1f%%" % result)
     test_sin.set("PASS")
 
@@ -45,7 +45,7 @@ def cos_test():
     if flag:
         result = 100.0
     else:
-        result = 100.0
+        result = count_cos/10
     var_cos_test.set("%.1f%%" % result)
     test_cos.set("PASS")
 
@@ -53,7 +53,7 @@ def tan_test():
     if flag:
         result = 99.8
     else:
-        result = 100.0
+        result = count_tan/10
     var_tan_test.set("%.1f%%" % result)
     test_tan.set("PASS")
 
@@ -61,7 +61,7 @@ def cot_test():
     if flag:
         result = 86.9
     else:
-        result = 100.0
+        result = count_cot/10
     var_cot_test.set("%.1f%%" % result)
     test_cot.set("PASS")
 
