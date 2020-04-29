@@ -48,14 +48,12 @@ test.py文件测试第六组同学在pyhon语言上的函数模块误差
 
 ## 测试界面
 
-测试界面同样可以选择两种语言（C++和python）,选择其中一种语言后，点击你要测试的函数模块，就可以实时生成1000个浮点数，得到误差 
-
-小于0.001的比例数。
+测试界面同样可以选择两种语言（C++和python）,选择其中一种语言后，点击你要测试的函数模块，就可以实时生成1000个浮点数，得到误差小于0.001的比例数。
  
 **测试情况如下图所示:**    
-![test interface](https://github.com/yangyuxue-cqu/cqu-team1-Repository/blob/group3_test/images/calculate.png)
+![test interface](https://github.com/yangyuxue-cqu/cqu-team1-Repository/blob/group3_test/images/test.png)
 
 **升级后的界面如下图所示：**    
-![User interface](https://github.com/yangyuxue-cqu/cqu-team1-Repository/blob/group3_test/images/test.png)
+![User interface](https://github.com/yangyuxue-cqu/cqu-team1-Repository/blob/group3_test/images/calculate.png)
 
  
