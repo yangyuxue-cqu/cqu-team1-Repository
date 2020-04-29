@@ -110,7 +110,8 @@ while num_test<1000:
         count_cot+=1
     num_test+=1
 
-print('Function sin(x) test completed,', '%.2f%%' % (count_sin/10) ,'passed verification')
-print('Function cos(x) test completed,', '%.2f%%' % (count_cos/10) ,'passed verification')
-print('Function tan(x) test completed,', '%.2f%%' % (count_tan/10) ,'passed verification')
-print('Function cot(x) test completed,', '%.2f%%' % (count_cot/10) ,'passed verification')
+#print('Function sin(x) test completed,', '%.2f%%' % (count_sin/10) ,'passed verification')
+#print('Function cos(x) test completed,', '%.2f%%' % (count_cos/10) ,'passed verification')
+#print('Function tan(x) test completed,', '%.2f%%' % (count_tan/10) ,'passed verification')
+#print('Function cot(x) test completed,', '%.2f%%' % (count_cot/10) ,'passed verification')
+
