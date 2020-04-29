@@ -6,7 +6,7 @@ import ctypes
 from ctypes import *
 
 #加载c++动态库
-#dll = ctypes.cdll.LoadLibrary('SnowC.dll')
+dll = ctypes.cdll.LoadLibrary('SnowC.dll')
 
 #界面
 window = tk.Tk()
